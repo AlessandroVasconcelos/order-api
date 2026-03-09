@@ -1,0 +1,15 @@
+{
+  "name": "order-api",
+  "version": "1.0.0",
+  "description": "API para gerenciamento de pedidos",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "sequelize": "*",
+    "sqlite3": "*"
+  }
+}
