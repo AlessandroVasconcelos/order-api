@@ -1,23 +1,23 @@
-# Order API
+# 📦 Order API
 
 API REST em Node.js + Express + Sequelize + SQLite para gerenciamento de pedidos.
 
-## Instalação
+## ⚙️ Instalação
 
 ```bash
 npm install
 npm start
 ```
 
-Servidor:
+🌐 Servidor:
 
 ```bash
 http://localhost:3000
 ```
 
-## Endpoints
+## 📌 Endpoints
 
-### Criar pedido
+### ➕ Criar pedido
 
 ```bash
 curl --location 'http://localhost:3000/order' \
@@ -36,19 +36,19 @@ curl --location 'http://localhost:3000/order' \
 }'
 ```
 
-### Buscar pedido
+### 🔍 Buscar pedido
 
 ```bash
 curl --location 'http://localhost:3000/order/v10089015vdb'
 ```
 
-### Listar pedidos
+### 📋 Listar pedidos
 
 ```bash
 curl --location 'http://localhost:3000/order/list'
 ```
 
-### Atualizar pedido
+### ✏️ Atualizar pedido
 
 ```bash
 curl --location --request PUT 'http://localhost:3000/order/v10089015vdb' \
@@ -66,13 +66,13 @@ curl --location --request PUT 'http://localhost:3000/order/v10089015vdb' \
 }'
 ```
 
-### Deletar pedido
+### 🗑️ Deletar pedido
 
 ```bash
 curl --location --request DELETE 'http://localhost:3000/order/v10089015vdb'
 ```
 
-## Observação
+## 🔄 Observação
 
 A transformação aplicada é:
 - `numeroPedido` -> `orderId` (removendo o sufixo final `-01`, se existir)
@@ -81,3 +81,11 @@ A transformação aplicada é:
 - `idItem` -> `productId`
 - `quantidadeItem` -> `quantity`
 - `valorItem` -> `price`
+
+## 🛠️ Tecnologias Utilizadas
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+
