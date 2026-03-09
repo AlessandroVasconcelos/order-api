@@ -5,6 +5,7 @@ API REST em Node.js + Express + Sequelize + SQLite para gerenciamento de pedidos
 ## ⚙️ Instalação
 
 ```bash
+cd order-api
 npm install
 npm start
 ```
