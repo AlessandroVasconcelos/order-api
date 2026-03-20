@@ -1,6 +1,6 @@
 # 📦 Order API
 
-API REST em Node.js + Express + Sequelize + SQLite para gerenciamento de pedidos. 
+API REST em Node.js + Express + Sequelize + SQLite para gerenciamento de pedidos.
 
 ## ⚙️ Instalação
 
